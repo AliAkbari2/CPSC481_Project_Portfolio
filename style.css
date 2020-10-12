@@ -1,1 +1,5 @@
-
+body { 
+ background: url('sunset.jpg') no-repeat;
+ background: cover;
+ font-family: Aria;
+}
