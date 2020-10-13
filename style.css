@@ -2,4 +2,18 @@ body {
  background: url('sunset.jpg') no-repeat;
  background: cover;
  font-family: Aria;
+ color: white;
+}
+
+ul {
+ margin: 0px;
+ padding: 0px;
+ list-style: none;
+}
+
+ul li {
+ float: left;
+ width: 200px;
+ height: 40px;
+ background-color: black;
 }
