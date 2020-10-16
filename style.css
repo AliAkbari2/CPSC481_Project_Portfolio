@@ -1,39 +1,67 @@
 body { 
- background: url('sunset.jpg') no-repeat;
- background: cover;
- font-family: Aria;
- color: white;
+    background: url('sunset.jpg') no-repeat;
+    background: cover;
+    font-family: Aria;
+    color: white;
+   }
+   
+   ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+   }
+   
+   ul li {
+    float: left;
+    width: 384px;
+    height: 40px;
+    background-color: black;
+    opacity: .8;
+    line-height: 40px;
+    text-align: center;
+    font-size: 20px; 
+   }
+   
+   ul li a {
+     text-decoration: none;
+     color: white;
+     display: block;
+   }
+   
+   ul li ul li {
+     display: none;
+   }
+   
+   ul li:hover ul li {
+    display: block;
+   }
+
+   .intro {
+    text-align: center;
+    padding-top: 10vh;
+    font-size: 6vh;
+    background-color: rgb(95, 194, 95);
+ }
+
+ .intro h1{
+    text-align: center;
+    padding-top: 10vh;
+    font-size: 6vh;
+    background-color: rgb(95, 194, 95);
+ }
+
+ ul li a:hover {
+  color: purple;
 }
 
-ul {
- margin: 0px;
- padding: 0px;
- list-style: none;
+ul li a.current {
+  color: blue;
 }
-
-ul li {
- float: left;
- width: 200px;
- height: 40px;
- background-color: black;
- opacity: .8;
- line-height: 40px;
- text-align: center;
- font-size: 20px; 
-}
-
-ul li a {
-  text-decoration: none;
-  color: white;
-  display: block;
-}
-
-ul li ul li {
-  display: none;
-}
-
-ul li:hover ul li {
- display: block;
+ 
+ *{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 
